@@ -1,0 +1,82 @@
+/*最IN潮人*/
+var inJson = [
+    {
+        id:1,
+        name:'李梦颖',
+        imgsrc:'/app-nowtowow/images/kol/limengyin.png',
+        link:'http://www.meipai.com/live/6157009787860094977'
+    },
+    {
+        id:1,
+        name:'邢晓瑶',
+        imgsrc:'/app-nowtowow/images/kol/xingxiaoyao.png',
+        link:'http://www.meipai.com/live/6157008946180722689'
+    },
+    {
+        id:3,
+        name:'cony兔酱',
+        imgsrc:'/app-nowtowow/images/kol/conytujiao.png',
+        link:'http://www.meipai.com/media/546242886'
+    }
+
+];
+
+/*美妆达人*/
+var mzJson = [
+    {
+        id:1,
+        name:'冯焱',
+        imgsrc:'/app-nowtowow/images/kol/fengyan.png',
+        link:'http://www.meipai.com/media/546244252?from=singlemessage&isappinstalled=1'
+    },
+    {
+        id:2,
+        name:'九九希',
+        imgsrc:'/app-nowtowow/images/kol/jiujiuxi.png',
+        link:'http://www.meipai.com/live/6157009343045767169'
+    },
+    {
+        id:3,
+        name:'黎洛kiki',
+        imgsrc:'/app-nowtowow/images/kol/liluokiki.png',
+        link:'http://www.meipai.com/live/6157009001310654465'
+    },
+    {
+        id:4,
+        name:'莲太太',
+        imgsrc:'/app-nowtowow/images/kol/liantaitai.png',
+        link:'http://www.meipai.com/live/6157010711684911106'
+    },
+    {
+        id:5,
+        name:'邵玉菲',
+        imgsrc:'/app-nowtowow/images/kol/shaoyufei.png',
+        link:'http://www.meipai.com/live/6157004442827821057'
+    },
+    {
+        id:6,
+        name:'十四十四',
+        imgsrc:'/app-nowtowow/images/kol/shisi.png',
+        link:'http://www.meipai.com/live/6157012585804795905'
+    },
+    {
+        id:7,
+        name:'梳子爱美',
+        imgsrc:'/app-nowtowow/images/kol/shuzi.png',
+        link:'http://www.meipai.com/live/6157004918738718721'
+    },
+    {
+        id:8,
+        name:'赵秋晨',
+        imgsrc:'/app-nowtowow/images/kol/zhaoqiucheng.png',
+        link:'http://www.meipai.com/live/6157008215545548801'
+    },
+    {
+        id:9,
+        name:'GiGi cherry',
+        imgsrc:'/app-nowtowow/images/kol/gigi.png',
+        link:'http://www.meipai.com/live/6157008940652630017'
+    }
+
+];
+

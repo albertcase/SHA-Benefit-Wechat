@@ -1,0 +1,475 @@
+html,body{
+    background: #ff727e;
+}
+
+#head{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+
+.page{
+    width: 100%;
+    height: 92%;
+    background: url("/vstyle/imgs/question/bg2.jpg") center top no-repeat;
+    background-size: 100% auto;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.page.bg{
+    background: url("/vstyle/imgs/question/bg.jpg") center bottom no-repeat;
+    background-size: 100% auto;
+}
+
+.page.bg .model{
+    width: 100%;
+    height: 100%;
+    background: url("/vstyle/imgs/question/model.png") center bottom no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.page .con{
+    width: 86%;
+    display: inline-block;
+    margin: 25% 0 0 0;
+    height: 75%;
+}
+
+.page.bg .con{
+    width: 72%;
+}
+
+
+
+.frameBg{
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+}
+
+.bg .frameBg{
+    width: 100%;
+    display: inline-block;
+    height: auto;
+}
+
+.frameBg img{
+    float: left;
+    display: inline-block;
+}
+
+.frameBg .frameBg_con{
+    width: 100%;
+    max-height: 76%;
+    float: left;
+    display: inline-block;
+    background: url("/vstyle/imgs/question/bg_c.png") center repeat-y;
+    background-size: 100% auto;
+}
+
+#list .frameBg .frameBg_con{
+    height: 76%;
+}
+
+.page.bg .frameBg_con{
+    padding: 10% 0;
+}
+
+.page.bg .frameBg_con img{
+    float: none;
+    width: 67%;
+    display: inline-block;
+}
+
+/* list */
+.frameBg_con dl,.form_con{
+    width: 70%;
+    margin: 6% 0 1% 0;
+    display: inline-block;
+    height: 88%;
+}
+
+.frameBg_con dl{
+    margin-top: 2%;
+    display: none;
+}
+
+.frameBg_con dl:first-child{
+    display: inline-block;
+}
+
+
+.frameBg_con dl dd,.frameBg_con dl dt{
+    width: 100%;
+    float: left;
+    display: inline-block;
+}
+.frameBg_con dl dd{
+    height: 86%;
+    margin: 6% 0 0 0;
+}
+
+.frameBg_con ul{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.frameBg_con li{
+    padding: 7% 0;
+    display: inline-block;
+    width: 100%;
+    font-size: 1.3rem;
+    font-family: Arial;
+    position: relative;
+    text-indent: 0.6em;
+    text-align: left;
+}
+
+.frameBg_con li span{
+    width: 92%;
+    position: relative;
+    display: inline-block;
+}
+
+.frameBg_con li span:before{
+    content:" ";
+    width: 27px;
+    height: 130%;
+    background: blue;
+    position: absolute;
+    left: -2%;
+    top: 5px;
+    /*top: 27%;*/
+    background: url("/vstyle/imgs/question/chose_icon.png") center top no-repeat;
+    background-size: 100% auto;
+    display: none;
+}
+
+.frameBg_con li *{
+    -webkit-transition: all .25s linear;
+    transition: all .25s linear;
+    -moz-transition: all .25s ease-out;
+}
+
+.frameBg_con li span i{
+    text-align: left;
+    float:left;
+    display: inline-block;
+    text-indent: 0;
+    width: 12%;
+}
+
+.frameBg_con li span em{
+    float: right;
+    display: inline-block;
+    text-indent: 0;
+    width: 80%;
+}
+
+.frameBg_con li.select span:before{
+    display: inline-block;
+}
+
+
+.frameBg_con dl.double li{
+    width: 50%;
+    float: left;
+    display: inline-block;
+    text-align: left;
+}
+
+.frameBg_con dl.double li i{
+    padding: 0;
+}
+
+
+/* form */
+
+#form .frameBg_con li{
+    border: 1px #e2e2e2 solid;
+    padding: 6% 0;
+    color: #535353;
+    font-size: 1.2rem;
+    text-indent: 0.2em;
+    margin: 4% 0;
+    text-align: center;
+}
+
+#form .frameBg_con li label{
+    width: 99%;
+}
+
+#form .frameBg_con li input{
+    width: 56%;
+    display: inline-block;
+}
+
+
+.footer{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 2;
+}
+
+.footer a{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin: 0 0 0 -20%;
+}
+
+.footer a.skipBtn{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 0;
+}
+
+.f_lottery{
+    display: none;
+}
+
+.wechatpup{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9) url("/vstyle/imgs/question/wechat_tips.png") center 2% no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    display: none;
+}
+
+.alertNode{
+    width: 60%;
+    padding: 7%;
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    left: 50%;
+    margin: 0 0 0 -30%;
+    top: 40%;
+    z-index: 9999;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    /*letter-spacing: 0.1em;*/
+}
+
+
+
+/* 6plus */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+    .page.bg .frameBg_con{
+        padding: 18% 0;
+    }
+
+    .page .con{
+        margin: 27% 0 0 0;
+        height: 73%;
+    }
+
+    .bg .frameBg{
+        margin: 10% 0 0 0;
+    }
+}
+
+/* 6 */
+@media only screen and (min-device-width: 375px) and (max-device-width: 410px) and (orientation: portrait) {
+    .page.bg .frameBg_con{
+        padding: 18% 0;
+    }
+
+    .page .con{
+        margin: 27% 0 0 0;
+        height: 73%;
+    }
+
+    .bg .frameBg{
+        margin: 10% 0 0 0;
+    }
+}
+
+/* 5s */
+@media handheld and (min-height:490px),screen and (max-height:510px) {
+
+}
+
+/* 4s */
+@media handheld and (min-height:400px),screen and (max-height:420px) {
+    .page .con{
+        margin: 22% 0 0 0;
+        height: 78%;
+    }
+
+    .page.bg .frameBg_con{
+        padding: 3% 0;
+    }
+
+    .form_con{
+        margin: 2% 0 0 0;
+    }
+
+    #form .frameBg_con ul{
+        margin: 7% 0 0 0;
+    }
+
+
+    #form .frameBg_con li{
+        border: 1px #e2e2e2 solid;
+        padding: 4% 0;
+        color: #535353;
+        font-size: 1.2rem;
+        text-indent: 0.2em;
+        margin: 3% 0;
+    }
+
+    #list .frameBg_con li{
+        padding: 3% 0;
+        margin: 2% 0;
+    }
+
+    #list .frameBg .frameBg_con{
+        height: 66%;
+    }
+
+    #list .frameBg_con dl dd{
+        margin: 2% 0 0 0;
+    }
+
+    #list .frameBg_con dl{
+        margin: 1% 0 0 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+/* line 32, ../src/please-wait.scss */
+.loading {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 16;
+    background: rgba(255,255,255,1);
+    /*opacity: 0;*/
+    -webkit-animation: pgAnimLoaded 0.5s cubic-bezier(0.7, 0, 0.3, 1) both;
+    -moz-animation: pgAnimLoaded 0.5s cubic-bezier(0.7, 0, 0.3, 1) both;
+    -ms-animation: pgAnimLoaded 0.5s cubic-bezier(0.7, 0, 0.3, 1) both;
+    -o-animation: pgAnimLoaded 0.5s cubic-bezier(0.7, 0, 0.3, 1) both;
+    animation: pgAnimLoaded 0.5s cubic-bezier(0.7, 0, 0.3, 1) both;
+    /*background: rgba(255, 114, 126, 0.9);*/
+    display: none;
+}
+
+
+/*
+ *  Usage:
+ *
+ *    <div class="sk-spinner sk-spinner-cube-grid">
+ *      <div class="sk-cube"></div>
+ *      <div class="sk-cube"></div>
+ *      <div class="sk-cube"></div>
+ *      <div class="sk-cube"></div>
+ *      <div class="sk-cube"></div>
+ *      <div class="sk-cube"></div>
+ *      <div class="sk-cube"></div>
+ *      <div class="sk-cube"></div>
+ *      <div class="sk-cube"></div>
+ *    </div>
+ *
+ */
+.sk-spinner-cube-grid {
+    /*
+     * Spinner positions
+     * 1 2 3
+     * 4 5 6
+     * 7 8 9
+     */ }
+.sk-spinner-cube-grid.sk-spinner {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    margin: -18px 0 0 -18px;
+}
+.sk-spinner-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background: #ff727e;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+    animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; }
+.sk-spinner-cube-grid .sk-cube:nth-child(1) {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s; }
+.sk-spinner-cube-grid .sk-cube:nth-child(2) {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s; }
+.sk-spinner-cube-grid .sk-cube:nth-child(3) {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s; }
+.sk-spinner-cube-grid .sk-cube:nth-child(4) {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s; }
+.sk-spinner-cube-grid .sk-cube:nth-child(5) {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s; }
+.sk-spinner-cube-grid .sk-cube:nth-child(6) {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s; }
+.sk-spinner-cube-grid .sk-cube:nth-child(7) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s; }
+.sk-spinner-cube-grid .sk-cube:nth-child(8) {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s; }
+.sk-spinner-cube-grid .sk-cube:nth-child(9) {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s; }
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1); }
+
+    35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1); } }
+
+@keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1); }
+
+    35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1); }
+}
